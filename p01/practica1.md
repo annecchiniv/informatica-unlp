@@ -12,12 +12,12 @@ El principal objetivo para construir una red es la finalidad de trabajar en conj
 
 Internet es una red de redes. En realidad Internet no es una red, sino una enorme colección de distintas redes que utilizan ciertos protocolos comunes y proveen ciertos servicios comunes.Es publica global con tecnología TCP/IP.Interconecta miles de millones de dispositivos informáticos a lo largo de todo el mundo.  
 Principales componentes que permiten su funcionamiento:
--Host o sistemas terminales: son todos los dispositivos que Internet interconecta. Proveen y utilizan servicios de Internet. También pueden ser clientes (computadoras con las que los usuarios se conectan a internet) que podrían estar dentro o fuera de la red.
--Red de enlaces de comunicaciones y conmutadores de paquetes: los sistemas terminales se conectan entre sí mediante esta red. 
+* Host o sistemas terminales: son todos los dispositivos que Internet interconecta. Proveen y utilizan servicios de Internet. También pueden ser clientes (computadoras con las que los usuarios se conectan a internet) que podrían estar dentro o fuera de la red.
+* Red de enlaces de comunicaciones y conmutadores de paquetes: los sistemas terminales se conectan entre sí mediante esta red. 
 Existen muchos tipos de enlaces de comunicaciones, los cuales están compuestos por diferentes tipos de medios físicos.  Los distintos enlaces pueden transmitir los datos a distintas velocidades.
 Los conmutadores de paquetes se suministran en muchas formas y modelos, pero los dos tipos más utilizados actualmente en Internet son los routers y los switches de la capa de enlace. 
 La secuencia de enlaces de comunicaciones y conmutadores de paquetes que atraviesa un paquete desde el sistema terminal emisor hasta el sistema terminal receptor, se conoce con el nombre de ruta a través de la red. Constituyen autopistas de la información
--Protocolos de red: conjunto de reglas que especifican el intercambio de datos u órdenes durante la comunicación entre las entidades que forman parte de una red. Las entidades que intercambian mensajes y llevan a cabo las acciones son los componentes hardware o software de cierto dispositivo. Los protocolos permiten la comunicación y están implementados en los componentes. Los sistemas terminales, los conmutadores de paquetes y otros dispositivos de Internet ejecutan protocolos que controlan el envío y la recepción de información dentro de Internet. 
+* Protocolos de red: conjunto de reglas que especifican el intercambio de datos u órdenes durante la comunicación entre las entidades que forman parte de una red. Las entidades que intercambian mensajes y llevan a cabo las acciones son los componentes hardware o software de cierto dispositivo. Los protocolos permiten la comunicación y están implementados en los componentes. Los sistemas terminales, los conmutadores de paquetes y otros dispositivos de Internet ejecutan protocolos que controlan el envío y la recepción de información dentro de Internet. 
 El protocolo TCP (Transmission Control Protocol, Protocolo de control de transmisión) y el protocolo IP (Internet Protocol, Protocolo Internet) son dos de los protocolos más importantes de Internet. El protocolo IP especifica el formato de los paquetes que se envían y reciben entre los routers y los sistemas terminales. Los principales protocolos de Internet se conocen colectivamente como protocolos TCP/IP y son dos protocolos importantes para internet.
 
 
@@ -68,20 +68,20 @@ Los sistemas terminales acceden a Internet a través de los ISP. Incluyendo los 
 
 **10. ¿Qué ventajas tiene una implementación basada en capas o niveles?**
 
--Divide la complejidad en componentes reusables.
--Las capas de abajo ocultan la complejidad a las de arriba, abstracción.
--Las capas de arriba utilizan servicios de las de abajo: Interfaces, similar a APIs. 
--Los cambios en una capa no deberían afectar a las demás si la interfaz se mantiene.
--Facilita el desarrollo, evolución de las componentes de red asegurando interoperabilidad. 
--Facilita el aprendizaje, diseño y administración de las redes.
+* Divide la complejidad en componentes reusables.
+* Las capas de abajo ocultan la complejidad a las de arriba, abstracción.
+* Las capas de arriba utilizan servicios de las de abajo: Interfaces, similar a APIs. 
+* Los cambios en una capa no deberían afectar a las demás si la interfaz se mantiene.
+* Facilita el desarrollo, evolución de las componentes de red asegurando interoperabilidad. 
+* Facilita el aprendizaje, diseño y administración de las redes.
 
 **11. ¿Cómo se llama la PDU de cada una de las siguientes capas: Aplicación, Transporte, Red y Enlace?**
 
 Pdu: unidad de datos de cada capa del protocolo. Es el nombre de la unidad en cada capa. 
--PDU de la capa de Aplicación: APDU o Datos
--PDU de la capa de Transporte: TPDU o Segmento
--PDU de la capa de Red: Paquete
--PDU de la capa de Enlace: Trama
+* PDU de la capa de Aplicación: APDU o Datos
+* PDU de la capa de Transporte: TPDU o Segmento
+* PDU de la capa de Red: Paquete
+* PDU de la capa de Enlace: Trama
 
 **12. ¿Qué es la encapsulación? Si una capa realiza la encapsulación de datos, ¿qué capa del nodo receptor realizará el proceso inverso?**
 
@@ -104,50 +104,50 @@ Dicho de otra manera, si una capa X realiza el encapsulamiento en el nodo emisor
 **13. Describa cuáles son las funciones de cada una de las capas del stack TCP/IP o protocolo de Internet.**
 
 Modelo de 4 capas: 
--Capa de Aplicación (Process/Application): 
--Capa de Transporte o Host-to-Host
--Capa de Internet o Internetworking 
--Capa de Acceso a la red (NAL)
+* Capa de Aplicación (Process/Application): 
+* Capa de Transporte o Host-to-Host
+* Capa de Internet o Internetworking 
+* Capa de Acceso a la red (NAL)
 
 Función de capa de aplicación:
--Provee servicios de comunicación a los usuarios y a las aplicaciones, incluye las aplicaciones mismas.
--Existe un modelo de comunicación Machine to machine (M2M), no hay usuarios (personas). 
--Interfaz con el usuario -User Interface (UI)- u otras aplicaciones/servicios. 
--Las aplicaciones que usan la red pertenecen a esta capa. Los protocolos que implementan las aplicaciones tambien.
--Existen aplicaciones que NO son de red que deben trabajar con aplicaciones/servicios para lograr acceso a la red.
+* Provee servicios de comunicación a los usuarios y a las aplicaciones, incluye las aplicaciones mismas.
+* Existe un modelo de comunicación Machine to machine (M2M), no hay usuarios (personas). 
+* Interfaz con el usuario -User Interface (UI)- u otras aplicaciones/servicios. 
+* Las aplicaciones que usan la red pertenecen a esta capa. Los protocolos que implementan las aplicaciones tambien.
+* Existen aplicaciones que NO son de red que deben trabajar con aplicaciones/servicios para lograr acceso a la red.
 
 Función de capa de transporte:
--Está diseñada para permitir que las entidades pares, en los nodos de origen y de destino, lleven a cabo una conversación
--Transporta los mensajes de la capa de aplicación entre los puntos terminales de la aplicación. 
--Existen dos protocolos de transporte:  TCP y UDP, pudiendo cada uno de ellos transportar los mensajes de la capa de aplicación.
--TCP ofrece a sus aplicaciones un servicio orientado a la conexión. 
--UDP proporciona a sus aplicaciones un servicio sin conexión. 
--El mensaje de la capa de aplicación y la información de cabecera de la capa de transporte constituyen el segmento de la capa de transporte. El segmento de la capa de transporte encapsula, por lo tanto, el mensaje de la capa de aplicación. 
+* Está diseñada para permitir que las entidades pares, en los nodos de origen y de destino, lleven a cabo una conversación
+* Transporta los mensajes de la capa de aplicación entre los puntos terminales de la aplicación. 
+* Existen dos protocolos de transporte:  TCP y UDP, pudiendo cada uno de ellos transportar los mensajes de la capa de aplicación.
+* TCP ofrece a sus aplicaciones un servicio orientado a la conexión. 
+* UDP proporciona a sus aplicaciones un servicio sin conexión. 
+* El mensaje de la capa de aplicación y la información de cabecera de la capa de transporte constituyen el segmento de la capa de transporte. El segmento de la capa de transporte encapsula, por lo tanto, el mensaje de la capa de aplicación. 
 
 Función de capa de Internet:
--Es responsable de trasladar los paquetes de la capa de red, conocidos como datagramas, de un host a otro.
--Incluye el conocido protocolo IP, que define los campos del datagrama, así como la forma en que actúan los sistemas terminales y los routers sobre estos campos. 
--También contiene protocolos de enrutamiento, que determinan las rutas que los datagramas siguen entre los orígenes y los destinos. 
+* Es responsable de trasladar los paquetes de la capa de red, conocidos como datagramas, de un host a otro.
+* Incluye el conocido protocolo IP, que define los campos del datagrama, así como la forma en que actúan los sistemas terminales y los routers sobre estos campos. 
+* También contiene protocolos de enrutamiento, que determinan las rutas que los datagramas siguen entre los orígenes y los destinos. 
 
 Función de capa de Acceso a la red: 
--Esta describe qué enlaces se deben llevar a cabo para cumplir con las necesidades de esta capa de interred sin conexión. En realidad es como si fuera una interfaz entre los hosts y los enlaces de transmisión.
--Un datagrama puede ser manipulado por distintos protocolos de esta capa en los distintos enlaces disponibles a lo largo de la ruta. 
--Mover tramas completas de un elemento de la red hasta el elemento de red adyacente
--Mover de un nodo al siguiente los bits individuales que forman la trama. (capa física)
--Los protocolos son dependientes del enlace y, por lo tanto, dependen del medio de transmisión del enlace.  En cada caso, los bits se desplazan a través del enlace de forma diferente.
+* Esta describe qué enlaces se deben llevar a cabo para cumplir con las necesidades de esta capa de interred sin conexión. En realidad es como si fuera una interfaz entre los hosts y los enlaces de transmisión.
+* Un datagrama puede ser manipulado por distintos protocolos de esta capa en los distintos enlaces disponibles a lo largo de la ruta. 
+* Mover tramas completas de un elemento de la red hasta el elemento de red adyacente
+* Mover de un nodo al siguiente los bits individuales que forman la trama. (capa física)
+* Los protocolos son dependientes del enlace y, por lo tanto, dependen del medio de transmisión del enlace.  En cada caso, los bits se desplazan a través del enlace de forma diferente.
 
 **14. Compare el modelo OSI con la implementación TCP/IP**
 
 _Similitudes:_
--Ambos modelos se basan en el concepto de una pila de protocolos independientes. 
--La funcionalidad de las capas es muy similar. 
--Las capas que están arriba de la de transporte son usuarias orientadas a la aplicación del servicio de transporte.
--Ambos tienen capas de (inter)red, transporte y aplicación
+* Ambos modelos se basan en el concepto de una pila de protocolos independientes. 
+* La funcionalidad de las capas es muy similar. 
+* Las capas que están arriba de la de transporte son usuarias orientadas a la aplicación del servicio de transporte.
+* Ambos tienen capas de (inter)red, transporte y aplicación
 
 _Diferencias:_
--Los protocolos en el modelo OSI están ocultos de una mejor forma que en el modelo TCP/IP, además se pueden reemplazar con relativa facilidad a medida que la tecnología cambia.
--El modelo de referencia OSI se ideó antes de que se inventaran los protocolos correspondientes. Este orden significa que el modelo no estaba orientado hacia un conjunto específico de protocolos, un hecho que lo hizo bastante general.
--La desventaja de este orden fue que los diseñadores no tenían mucha experiencia con el tema y no supieron bien qué funcionalidad debían colocar en cada una de las capas. 
--Con TCP/IP sucedió lo contrario: primero llegaron los protocolos y el modelo era en realidad sólo una descripción de los protocolos existentes. No hubo problema para que los protocolos se ajustaran al modelo. 
--número de capas: el modelo OSI tiene siete capas, mientras que el modelo TCP/ IP tiene cuatro.
--Hay otra diferencia en el área de la comunicación sin conexión frente a la comunicación orientada a conexión. El modelo OSI soporta ambos tipos de comunicación en la capa de red, pero sólo la comunicación orientada a conexión en la capa de transporte, en donde es más importante (ya que el servicio de transporte es visible a los usuarios). El modelo TCP/IP sólo soporta un modo en la capa de red (sin conexión) pero soporta ambos en la capa de transporte, de manera que los usuarios tienen una alternativa, que es muy importante para los protocolos simples de petición-respuesta.
+* Los protocolos en el modelo OSI están ocultos de una mejor forma que en el modelo TCP/IP, además se pueden reemplazar con relativa facilidad a medida que la tecnología cambia.
+* El modelo de referencia OSI se ideó antes de que se inventaran los protocolos correspondientes. Este orden significa que el modelo no estaba orientado hacia un conjunto específico de protocolos, un hecho que lo hizo bastante general.
+* La desventaja de este orden fue que los diseñadores no tenían mucha experiencia con el tema y no supieron bien qué funcionalidad debían colocar en cada una de las capas. 
+* Con TCP/IP sucedió lo contrario: primero llegaron los protocolos y el modelo era en realidad sólo una descripción de los protocolos existentes. No hubo problema para que los protocolos se ajustaran al modelo. 
+* Número de capas: el modelo OSI tiene siete capas, mientras que el modelo TCP/ IP tiene cuatro.
+* Hay otra diferencia en el área de la comunicación sin conexión frente a la comunicación orientada a conexión. El modelo OSI soporta ambos tipos de comunicación en la capa de red, pero sólo la comunicación orientada a conexión en la capa de transporte, en donde es más importante (ya que el servicio de transporte es visible a los usuarios). El modelo TCP/IP sólo soporta un modo en la capa de red (sin conexión) pero soporta ambos en la capa de transporte, de manera que los usuarios tienen una alternativa, que es muy importante para los protocolos simples de petición-respuesta.
