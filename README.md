@@ -1,2 +1,2 @@
-# Redes y Comunicaciones 2020
+# Redes y Comunicaciones - Cursada 2do cuatrimestre 2020
 ## Grupo 23 
