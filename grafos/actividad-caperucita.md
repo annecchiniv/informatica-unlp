@@ -10,4 +10,4 @@ Caminos posibles:
 1) Casa Caperucita - Claro 1 - Claro 5 - Casa Abuelita.
 2) Casa Caperucita - Claro 2 – Claro 1 - Claro 5 - Casa Abuelita.
 
-[[!grafo](grafo-caperucita1.jpg)]
+[!grafo](grafo-caperucita1.jpg)
