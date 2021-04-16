@@ -41,13 +41,12 @@ private int obtenerRecorrido(Grafo<String> grafo, Vertice<String> vertice, boole
 		min = minimos.tamanio();
 		while(!ciudades.esVacia()) //x si ya tenia algo, un camino viejo	
 			ciudades.eliminarEn(ciudades.tamanio()); //elimino 
-		
 			for(int i=1; i <= minimos.tamanio();i++)
 				ciudades.agregarFinal(minimos.elemento(i)); //a la lista final de caminos le voy agregando el nuevo camino minimo
 			
-		}
-		minimos.eliminarEn(minimos.tamanio()); 
-		marca[vertice.getPosicion()] = false; // desmarco porque haber otros caminos que pasen por ese vertice 
-		return min;
 	}
-  ```
+	minimos.eliminarEn(minimos.tamanio()); 
+	marca[vertice.getPosicion()] = false; // desmarco porque haber otros caminos que pasen por ese vertice 
+	return min;
+}
+```
