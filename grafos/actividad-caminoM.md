@@ -7,7 +7,7 @@ letra “M”. En este viaje empieza su recorrido en Mar del Plata y su destino 
 Se pide implementar el método obtenerRecorrido dentro de la clase recorridoM que devuelva el camino más corto entre el origen y el destino que cumpla la condición que el nombre de
 todas las ciudades por las que pasa debe comenzar con la letra “M”. Para el siguiente ejemplo:
 
-[!caminoM](camino-m1.jpg)
+![grafo](camino-m1.jpg)
 
 Existen varios caminos entre Mar del Plata y Munich, por ejemplo:
 
