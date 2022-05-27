@@ -54,7 +54,11 @@ Además, los usuarios se clasifican como usuarios de prioridad alta y usuarios d
    Indique si la solución presentada es la más adecuada. Justifique la respuesta. 
 
    [![tabla](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/CONCURRENTE%20ATIC%202022/PRACTICA%202%20-%20SEMAFOROS/cuadro-ej3.PNG)]()
-
+   
+   
+        No, no es la mas adecuada. Seria mejor que P(sem) este después de P(baja) o P(alta) debido a que accedo a la BD 
+        antes de saber si puedo acceder segun mi prioridad. Se podría generar una demora innecesaria en el caso de haber 
+        tomado el acceso a la BD sin poder hacerlo con mi prioridad.
         
         Correccion: 
     
