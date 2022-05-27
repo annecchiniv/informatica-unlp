@@ -51,5 +51,34 @@ Además, los usuarios se clasifican como usuarios de prioridad alta y usuarios d
     
    Indique si la solución presentada es la más adecuada. Justifique la respuesta. 
 
-   [![tabla](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/CONCURRENTE%20ATIC%202022/PRACTICA%202%20-%20SEMAFOROS/cuadro-ej3.PNG)]
+   [![tabla](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/CONCURRENTE%20ATIC%202022/PRACTICA%202%20-%20SEMAFOROS/cuadro-ej3.PNG)]()
+
+        No, porque podrian seguir pasando de alta prioridad en forma consecutiva y se encuentran en un determinado momento utilizando la BD no impediria
+        que sigan pasando mas usuarios de alta prioridad por el 1er sem P(sem), quedando bloqueados luego en P(alta)
+    
+        Correccion: 
+    
+        Var 
+        sem: semaphoro:=6;   
+        sem: semaphoro:=4;
+        sem: semaphoro:=5;
+        
+        Process Usuario-Alta[i:1..L]::{
+            P(alta);
+            P(sem);
+            //Usa la BD
+            V(sem);
+            V(alta);
+        }
+    
+        Process Usuario-Baja[i:1..K]::{
+            P(baja);
+            P(sem);
+            //Usa la BD
+            V(sem);
+            V(baja);
+        }
+    
+        
+
 
