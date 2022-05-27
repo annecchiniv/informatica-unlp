@@ -1,3 +1,5 @@
+**EJERCICIOS CORREGIDOS**
+
 1.Existen N personas que deben ser chequeadas por un detector de metales antes de poder ingresar al avión.
 
     a. Implemente una solución que modele el acceso de las personas a un detector (es decir si el detector está libre la persona 
@@ -53,9 +55,7 @@ Además, los usuarios se clasifican como usuarios de prioridad alta y usuarios d
 
    [![tabla](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/CONCURRENTE%20ATIC%202022/PRACTICA%202%20-%20SEMAFOROS/cuadro-ej3.PNG)]()
 
-        No, porque podrian seguir pasando de alta prioridad en forma consecutiva y se encuentran en un determinado momento utilizando la BD no impediria
-        que sigan pasando mas usuarios de alta prioridad por el 1er sem P(sem), quedando bloqueados luego en P(alta)
-    
+        
         Correccion: 
     
         Var 
