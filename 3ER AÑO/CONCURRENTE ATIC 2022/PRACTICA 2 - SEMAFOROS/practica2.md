@@ -43,3 +43,13 @@ una instancia del recurso la saca de la cola, la usa y cuando termina de usarla 
         V(recurso);
       }
     }
+    
+3. Suponga que existe una BD que puede ser accedida por 6 usuarios como máximo al mismo tiempo. 
+Además, los usuarios se clasifican como usuarios de prioridad alta y usuarios de prioridad baja. Por último, la BD tiene la siguiente restricción:
+    * no puede haber más de 4 usuarios con prioridad alta al mismo tiempo usando la BD
+    * no puede haber más de 5 usuarios con prioridad baja al mismo tiempo usando la BD
+    
+   Indique si la solución presentada es la más adecuada. Justifique la respuesta. 
+
+   [![tabla](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/CONCURRENTE%20ATIC%202022/PRACTICA%202%20-%20SEMAFOROS/cuadro-ej3.PNG)]
+
