@@ -1,4 +1,4 @@
-*Ejercicios corregidos (tomar con pinzas)*
+*Ejercicios corregidos (preg igual, hay muchas maneras de hacerlos)*
 
 1.Existen N personas que deben ser chequeadas por un detector de metales antes de poder ingresar al avión.
 
