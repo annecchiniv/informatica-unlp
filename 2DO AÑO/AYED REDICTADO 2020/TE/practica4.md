@@ -9,5 +9,7 @@ de movimientos diarios que abarquen gran parte de las cuentas bancarias.
 c.- ¿En qué se diferencia procesarMovimientosOptimizado? Observe las operaciones que se
 realizan para cada consulta.
 
+        procesarMovimientosOptimizado
+
 Aunque los dos algoritmos se encuentran explicados en los comentarios, no es necesario entender
 su funcionamiento para contestar las preguntas
