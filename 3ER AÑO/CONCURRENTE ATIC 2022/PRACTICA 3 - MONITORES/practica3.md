@@ -1,4 +1,4 @@
-*Ejercicios corregidos (tomar con pinzas)*
+*Ejercicios corregidos (preg igual, hay muchas maneras de hacerlos)*
 
 1. Implementar el acceso a una base de datos de solo lectura que puede atender a lo sumo 5 consultas simultáneas.
 
