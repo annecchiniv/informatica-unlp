@@ -79,7 +79,7 @@ utilizando notación Big-Oh.
 
         a) Falso. 2^n es una cota inferior a 3^n
         b) Verdadero. n es una cota superior al logaritmo en base 2 de n
-        c) Falso. n^(1/2) es una cota inferior a 10^20
+        c) Falso. n^(1/2) es una cota inferior a 10^20. --> esta mal, es verdadera
         d) Verdadero ya que n es una cota superior a c
            3n + 17, n < 100
            317    , n >= 100 
@@ -157,7 +157,45 @@ También suponemos el mensaje swap() que intercambia dos datos entre sí.
                
         }
 
+a. Analizar si todos los algoritmos terminan o alguno puede quedar en loop infinito.
 
+        Los 2 primeros algoritmos pueden quedar en loop infinito porque tienen un while que depende del número que genere la función random
+        entonces no se puede garantizar que en algún momento va a salir el número que se necesita para que termine el algoritmo. 
+
+b. Describa con palabras la cantidad de operaciones que realizan. 
+
+        No se si tengo que hacer la cuenta.
+
+**Ejercicio 6**
+
+a. Se tiene un algoritmo A, que se ejecuta sobre una computadora que procesa 10.000 operaciones
+por segundo. Si el algoritmo A requiere f(n) = n * log10 n operaciones para resolver un problema,
+determine el tiempo en segundos requerido por el algoritmo para resolver un problema de tamaño
+n=10.000.
+
+        computadora procesa 10000 op/seg
+        algoritmo A requiere f(n)=n*log10(n) op. para resolver un problema
+        tiempo en segs requerido por el algoritmo para resolver un problema de tamaño n=10000?
+        
+        f(n) = n * log10(n)
+        f(10000) = 10000 * log10(10000)
+        f(10000) = 10000 * 4 = 40000 
+        entonces 40000 son la cantidad de operaciones
+        
+        10000 op __ 1 seg
+        40000 op __ x seg
+        
+        x = 40000/10000 = 4 
+        
+        Por lo tanto 4 es el tiempo en segundos requerido por el algoritmo para resolver un problema de tamaño n = 10000.
+
+b. Suponga que tenemos un algoritmo ALGO-1 cuyo tiempo de ejecución exacto es 100n3
+ para un tamaño de entrada n.
+ 
+i) si el tamaño de la entrada aumenta al doble, es decir, sería 2n, ¿Cuánto más lenta sería la
+respuesta del algoritmo ALGO-1?
+
+ii) y si aumenta al triple?
 
 
 
