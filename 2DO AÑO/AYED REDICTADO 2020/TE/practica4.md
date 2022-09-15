@@ -50,3 +50,23 @@ realizan para cada consulta.
 
 Aunque los dos algoritmos se encuentran explicados en los comentarios, no es necesario entender
 su funcionamiento para contestar las preguntas
+
+**Ejercicio 3**
+
+En la documentación de la clase arrayList que se encuentra en el siguiente link
+https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+Se encuentran las siguientes afirmaciones
+* "The size, isEmpty, get, set, iterator, and listIterator operations run in constant time.”
+* “All of the other operations run in linear time (roughly speaking)”
+
+Explique con sus palabras por qué cree que algunas operaciones se ejecutan en tiempo constante y otras en tiempo lineal.
+
+        Creo que las operaciones que se ejecutan en tiempo constante lo hacen así porque solo tienen que preguntar 
+        o iterar una única vez. 
+        Por ejemplo:
+                ○ En la operación size se pide el tamaño de una estructura y no es necesario recorrerla toda para 
+                obtener esa información.
+                ○ En la operación isEmpty se verifica si la estructura tiene al menos un elemento, tampoco es 
+                necesario verificar los demas elementos. 
+        Todas las demás operaciones se ejecutan en tiempo lineral ya que en el peor caso se debe recorrer toda la 
+        estructura o se itera más de una vez.
