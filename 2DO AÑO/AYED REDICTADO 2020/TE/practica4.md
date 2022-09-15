@@ -70,3 +70,23 @@ Explique con sus palabras por qué cree que algunas operaciones se ejecutan en t
                 necesario verificar los demas elementos. 
         Todas las demás operaciones se ejecutan en tiempo lineral ya que en el peor caso se debe recorrer toda la 
         estructura o se itera más de una vez.
+        
+**Ejercicio 4**
+
+Determinar si las siguientes sentencias son verdaderas o falsas, justificando la respuesta
+utilizando notación Big-Oh.
+![incisos-ej4](https://github.com/annecchiniv/informatica-unlp/blob/master/2DO%20A%C3%91O/AYED%20REDICTADO%202020/TE/incisos-ej4.jpg?raw=true)
+
+        a) Falso. 2^n es una cota inferior a 3^n
+        b) Verdadero. n es una cota superior al logaritmo en base 2 de n
+        c) Falso. n^(1/2) es una cota inferior a 10^20
+        d) Verdadero ya que n es una cota superior a c
+           3n + 17, n < 100
+           317    , n >= 100 
+           317 es una constante
+        e) Verdadero. n^5 es una cota superior a n^4, n y c.
+        f) Verdadero, por regla de Big-Oh.
+        
+
+           
+
