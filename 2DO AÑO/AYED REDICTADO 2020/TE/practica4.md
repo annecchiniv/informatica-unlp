@@ -168,10 +168,10 @@ b. Describa con palabras la cantidad de operaciones que realizan.
 
 **Ejercicio 6**
 
-a. Se tiene un algoritmo A, que se ejecuta sobre una computadora que procesa 10.000 operaciones
-por segundo. Si el algoritmo A requiere f(n) = n * log10 n operaciones para resolver un problema,
-determine el tiempo en segundos requerido por el algoritmo para resolver un problema de tamaño
-n=10.000.
+a. Se tiene un algoritmo A, que se ejecuta sobre una computadora que procesa 10.000 operaciones por segundo. 
+
+Si el algoritmo A requiere f(n) = n * log10 n operaciones para resolver un problema, determine el tiempo en segundos 
+requerido por el algoritmo para resolver un problema de tamaño n=10.000.
 
         computadora procesa 10000 op/seg
         algoritmo A requiere f(n)=n*log10(n) op. para resolver un problema
@@ -189,14 +189,23 @@ n=10.000.
         
         Por lo tanto 4 es el tiempo en segundos requerido por el algoritmo para resolver un problema de tamaño n = 10000.
 
-b. Suponga que tenemos un algoritmo ALGO-1 cuyo tiempo de ejecución exacto es 100n3
- para un tamaño de entrada n.
+b. Suponga que tenemos un algoritmo ALGO-1 cuyo tiempo de ejecución exacto es 100n3 para un tamaño de entrada n.
+
+        f(n) = 100n^3
  
-i) si el tamaño de la entrada aumenta al doble, es decir, sería 2n, ¿Cuánto más lenta sería la
-respuesta del algoritmo ALGO-1?
+i) si el tamaño de la entrada aumenta al doble, es decir, sería 2n, ¿Cuánto más lenta sería la respuesta del algoritmo ALGO-1?
+
+        f(2n) = 100(2n)^3
+        f(2n) = 100.((2^3).(n^3)) = 100.(8n)^3 --> 8
+        
+        La respuesta del algoritmo ALGO-1 si el tamaño de entrada aumenta el doble sería 8 veces más lenta
 
 ii) y si aumenta al triple?
 
+        f(3n) = 100(3n)^3
+        f(3n) = 100.((3^3).(n^3)) = 100.(27n)^3 --> 27
+        
+        La respuesta del algoritmo ALGO-1 si el tamaño de entrada aumenta el triple sería 27 veces más lenta
 
 
            
