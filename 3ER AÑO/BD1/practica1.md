@@ -12,6 +12,13 @@ cada cuadro expuesto en un museo?
     
 ![cuadro1.2-ej1](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/cuadro1.2-ej1.jpg?raw=true)
 
+    ¿Qué parte del modelo indica esto?
+    La parte del modelo que indica esto es la relación expone entre la agregación y periodo.
+    
+    
+    
+    ¿Cómo la modificaría para que cada período fuese exclusivo de cada cuadro expuesto en un museo?
+    
 
 b. Si los cuadros se expusieran en un solo período dentro de cada museo ¿cómo ajustaría el modelo para reflejar esto?
 
