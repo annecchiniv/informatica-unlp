@@ -8,9 +8,9 @@ cada cuadro expuesto en un museo?
 
     Hay 2 relaciones con el mismo nombre “expuesto" y esto es un error ya que no pueden haber dos relaciones/entidades 
     con el mismo nombre por lo tanto habría que modificar el nombre de alguna.
-    Entonces corrigiendo el error: 
+    Entonces corrijo el error cambio a "expone" el nombre de la relación "expuesto" entre la agregación y la entidad periodo
     
-    
+![cuadro1.2-ej1](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/cuadro1.2-ej1.jpg?raw=true)
 
 
 b. Si los cuadros se expusieran en un solo período dentro de cada museo ¿cómo ajustaría el modelo para reflejar esto?
