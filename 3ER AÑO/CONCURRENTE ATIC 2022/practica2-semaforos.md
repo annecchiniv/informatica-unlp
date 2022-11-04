@@ -62,7 +62,7 @@ Además, los usuarios se clasifican como usuarios de prioridad alta y usuarios d
     
    Indique si la solución presentada es la más adecuada. Justifique la respuesta. 
 
-   [![tabla](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/CONCURRENTE%20ATIC%202022/PRACTICA%202%20-%20SEMAFOROS/cuadro-ej3.PNG)]()
+   [![tabla](https://github.com/annecchiniv/informatica-unlp/blob/9f6e89d66e6b1f2206d699b47e545d1d125a0007/3ER%20A%C3%91O/CONCURRENTE%20ATIC%202022/cuadro-ej3-p2.png)]()
    
    
         No, no es la mas adecuada. Seria mejor que P(sem) este después de P(baja) o P(alta) debido a que accedo a la BD 
