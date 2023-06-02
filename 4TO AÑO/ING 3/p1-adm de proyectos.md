@@ -1,5 +1,6 @@
 # PRÁCTICA 1 - Administración de Proyectos y Costos
-### No están corregidas. Saque cosas del libro, de otros githubs de alumnos de la fac, etc
+### No están corregidas. 
+### Saque cosas de otros githubs de alumnos de la fac, del libro "Introduction to Software Quality - Gerard O'Regan", etc
 
 
 ## Parte I: Conceptos generales
