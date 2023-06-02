@@ -110,3 +110,24 @@ Aspectos comunes:
 
 Enumerar ventajas de una buena administración de proyectos:
 - Se puede asegurar que si hubo una buena administración del proyecto, se cumplieron los objetivos que se plantearon. Garantiza que se alcancen los objetivos cumpliendo los estándares teniendo en cuenta los parámetros del proyecto.
+
+## 9. Cite los desafíos de la administración de proyectos. Indique qué puede hacerse para cumplirlos.
+
+Desafíos de la administración de proyectos: 
+
+| Desafio | Que hacer para cumplirlo |
+| -- | -- | 
+| Alto nivel de innovación | Contratar gente especializada, hacer capacitaciones | 
+| Complejidad | Dividir las tareas, se puede usar una estructura para esto como WBS |
+| Requerimientos ambiguos | Alguien tiene que encargarse de chequear estos requerimientos y se pueden organizar reuniones con el cliente para aclarar los aspectos que confunden
+lograr entrevistas para la obtención de requerimientos sin comprometer el sw a cambios de requeridos| 
+| Falta de competencias necesarias | Contratar personal sea capacitado o capacitar|
+| Herramientas y técnicas inmaduras | Utilizar estándares |
+| Cumplir con regulaciones de gobierno | Tener en cuenta las leyes o normas de regulación |
+| Cumplir con plazos | Que haya compromiso de todas las partes  |
+| Tratar con proveedores | Encontrar proveedores adecuados para garantizar los objetivos del proyecto  |
+| Reportar a altas autoridades | Llevar un control del progreso de los empleados por si después hay problemas, recurrir a esa documentación |
+| Retener personal calificados | Que las tareas tengan una paga extra o algún beneficio. Ofrecer más aspectos a medida que pasa el tiempo |
+| Administrar personal con diferentes niveles de productividad | Se tienen que repartir bien las tareas |
+| Administrar equipos distribuidos en diferentes ubicaciones| Delegar las responsabilidades, usar herramientas de colaboración remota, hacer reuniones regulares, establecer un objetivo común, seguimiento del progreso |
+| Administrar entornos multi-culturales y multi-lingua | Hay que comunicarse de buena manera con el cliente, contratar empleados que hablen distintos idiomas, o que tenga la misma cultura, o que se especialice en esas áreas   |
