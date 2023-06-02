@@ -131,3 +131,20 @@ lograr entrevistas para la obtención de requerimientos sin comprometer el sw a 
 | Administrar personal con diferentes niveles de productividad | Se tienen que repartir bien las tareas |
 | Administrar equipos distribuidos en diferentes ubicaciones| Delegar las responsabilidades, usar herramientas de colaboración remota, hacer reuniones regulares, establecer un objetivo común, seguimiento del progreso |
 | Administrar entornos multi-culturales y multi-lingua | Hay que comunicarse de buena manera con el cliente, contratar empleados que hablen distintos idiomas, o que tenga la misma cultura, o que se especialice en esas áreas   |
+
+## 10. Mencione y explique con sus palabras cómo es el ciclo de vida de un proyecto.
+
+El ciclo de vida de un proyecto es el proceso de como se va haciendo un proyecto y tiene un comienzo y un fin. 
+Se pueden distinguir distintas "etapas" que se van llevando a cabo para completar el proyecto:  
+- Definir el proyecto: el costo, el tiempo, el alcance
+- Desarrollar un plan detallado: que actividades se van a hacer y de que manera respetando la definición
+- Ejecución del proyecto
+- Monitorear/Controlar
+- Terminación/Cierre
+
+## 11. Explique qué es un programa. Mencione diferencias entre programas y proyectos. 
+
+
+## 12. ¿Cuál es la relación entre la administración de programas y la administración de proyectos?
+
+
