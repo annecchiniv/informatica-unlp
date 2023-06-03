@@ -138,11 +138,12 @@ El ciclo de vida de un proyecto es el proceso de como se va haciendo un proyecto
 Se pueden distinguir distintas "etapas" que se van llevando a cabo para completar el proyecto:  
 - Definir el proyecto: el costo, el tiempo, el alcance
 - Desarrollar un plan detallado: que actividades se van a hacer y de que manera respetando la definición
-- Ejecución del proyecto
-- Monitorear/Controlar
-- Terminación/Cierre
+- Ejecución del proyecto: realizar las actividades del plan
+- Monitorear/Controlar: llevar un control de las tareas, controlar que se haga todo de acuerdo al plan, corregir problemas 
+- Terminación/Cierre: terminar el proyecto y se puede hacer balance del mismo, se entrega el producto final
 
 ## 11. Explique qué es un programa. Mencione diferencias entre programas y proyectos. 
+
 
 
 ## 12. ¿Cuál es la relación entre la administración de programas y la administración de proyectos?
