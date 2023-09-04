@@ -122,3 +122,46 @@ C. ¿Qué se está modelando con Horario cuando está la agregación? Indíquelo
 **5) Verdadero/Falso en Transformación del modelo de E/R al modelo Relacional**
 
 ![cuadro 5](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro%205.jpg)
+
+semestre (**#semestre**, año, nro)
+
+curso (**código**, nombre, reseña)
+
+profesor (**cuil**, nyap, fecha_nac, fecha_ingreso)
+
+infocurso (**idic**, fecha_comienzo, aula, día_semana, hora)
+
+brinda (**#semestre, código**)
+
+tiene (**#semestre, código, idic**)
+
+dicta (idic, **cuil**)
+
+Dada la transformación 1 a 1 del modelo de entidades y relaciones al modelo relacional,
+responda si las siguientes afirmaciones son V o F:
+
+A. La relación **brinda** tiene los atributos correspondientes y su clave está bien definida
+
+    Verdadero porque se queda con ambas claves por la cardinalidad maxima N.
+
+B. La relación **tiene** tiene los atributos correspondientes y su clave está bien definida
+
+    Falso. El identificador idic no va porque es (1,1) la cardinalidad.
+
+C. La relación **dicta** tiene los atributos correspondientes y su clave está bien definida
+
+    Falso. La clave deberia ser idic porque es (1,N) la cardinalidad.
+
+D. La relación **tiene** no debería existir y los identificadores de la agregación deberían estar
+en **InfoCurso**.
+
+    ????
+    Falso. Si no existe, los identificadores no podrian estar en InfoCurso, se necesita si o si una relación
+
+E. La relación **dicta** no debería existir y los atributos de Profesor deberían estar en
+InfoCurso.
+
+    Falso. Son datos propios del Profesor que no interesan guardan en la información de un curso. 
+
+
+
