@@ -1,1 +1,1 @@
-# Cuadros de la práctica 
+Cuadros de la práctica 
