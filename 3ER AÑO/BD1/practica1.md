@@ -118,3 +118,7 @@ C. ¿Qué se está modelando con Horario cuando está la agregación? Indíquelo
     - c2 si fuera (1,1) el modelo indicaria que en un horario trabaja un unico vendedor. 
     - c2 si fuera (1,N) el modelo indicaria que en un horario trabajan 1 o más vendedores.
     - c2 si fuera (1,N) el modelo indicaria que existe un horario sin nadie trabajando. 
+
+**5) Verdadero/Falso en Transformación del modelo de E/R al modelo Relacional**
+
+![cuadro 5](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro%205.jpg)
