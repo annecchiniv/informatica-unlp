@@ -55,3 +55,38 @@ D. No es correcto modelar atributos en las relaciones en un modelo ER
 **3) Verdadero/ Falso. Justificar**
 
 ![cuadro-ej3](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro-ej3.jpg?raw=true)
+
+A. La relación tiene está mal definida, ya que debería ser entre persona y categoría_monotributo.
+
+    Falso. Está bien definida porque el enunciado dice que solo de las personas físicas
+    se conoce categoría de monotributo.
+
+B. La relación realiza esta bien definida, ya que todas las personas realizan actividades.
+
+    Verdadero. El enunciado dice que de cada beneficiario se conoce la actividad económica. 
+
+C. La jerarquía de Persona representa correctamente la problemática.
+
+    Falso.
+    - La entidad Persona podría llamarse Beneficiario para que el modelo sea más claro.
+    - Esta entidad podría ser Generalización porque no hay otro tipo de persona para este enunciado.
+    - Además tiene que modelar datos comunes de entidades hijas (dpto, provincia, localidaad) y no lo hace. 
+
+D. La relación pertenece está mal definida, ya que no puede haber atributos en las relaciones.
+
+    Falso. Puede haber atributos en las relaciones, mientras no sean identificador.
+
+E. La agregación de la relación posee está correctamente definida ya que con una relación uno a muchos se puede agregar.
+
+    Falso. Esta mal definida porque se puede agregar si ambas cardinalidades maximas son mayor que 1. 
+
+F. Con este diseño es posible conocer el saldo disponible del subsidio para futuras liquidaciones.
+
+    Verdadero. Se podría conocer calculandolo con sumas por mes total_gastado y se resta al monto del Subsidio
+    que sería el monto total que se puede gastar. 
+
+G. El modelo no tiene redundancia de datos.
+
+    Falso. El modelo si tiene redundancia de datos. 
+    - monto en la relación pertenece podría no estar porque indica el monto que se le da a cada beneficiario
+    - en Persona se guarda nombre y en persona Fisica también. 
