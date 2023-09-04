@@ -1,6 +1,6 @@
 **1) Cuadros**
 
-![cuadro-ej1](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/cuadro1-ej1.jpg?raw=true)
+![cuadro-ej1](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro1-ej1.jpg?raw=true)
 
     Hay 2 relaciones con el mismo nombre “expuesto" y esto es un error ya que 
     no pueden haber dos relaciones/entidades con el mismo nombre 
@@ -8,7 +8,7 @@
     Entonces corrijo el error y cambio a "expone" el nombre de la relación "expuesto" 
     entre la agregación y la entidad periodo
     
-![cuadro1.2-ej1](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/cuadro1.2-ej1.jpg?raw=true)
+![cuadro1.2-ej1](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro1.2-ej1.jpg?raw=true)
 
 A. En este modelo cada período de exposición contiene múltiples cuadros en museos. ¿Qué
 parte del modelo indica esto? ¿Cómo la modificaría para que cada período fuese exclusivo de
@@ -19,7 +19,7 @@ cada cuadro expuesto en un museo?
     contiene múltiples cuadros en museos es la cardinalidad (1,N) 
     de la relación Expone del lado de la agregación.  
     
-![cuadro1.3-ej1](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/cuadro1.3-ej1.jpg?raw=true)
+![cuadro1.3-ej1](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro1.3-ej1.jpg?raw=true)
     
     ¿Cómo la modificaría para que cada período fuese exclusivo de cada cuadro expuesto en un museo?
     Modificaria la cardinalidad antes mencionada a (1,1) 
@@ -54,3 +54,4 @@ D. No es correcto modelar atributos en las relaciones en un modelo ER
 
 **3) Verdadero/ Falso. Justificar**
 
+![cuadro-ej3](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro-ej3.jpg?raw=true)
