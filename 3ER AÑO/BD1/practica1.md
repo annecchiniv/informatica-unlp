@@ -1,6 +1,6 @@
 **1) Cuadros**
 
-![cuadro-ej1](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro%201.jpg)
+![cuadro 1](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro%201.jpg)
 
     Hay 2 relaciones con el mismo nombre “expuesto" y esto es un error ya que 
     no pueden haber dos relaciones/entidades con el mismo nombre 
@@ -8,7 +8,7 @@
     Entonces corrijo el error y cambio a "expone" el nombre de la relación "expuesto" 
     entre la agregación y la entidad periodo
     
-![cuadro1.2-ej1]()
+![cuadro 1.2](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro%201.2.jpg)
 
 A. En este modelo cada período de exposición contiene múltiples cuadros en museos. ¿Qué
 parte del modelo indica esto? ¿Cómo la modificaría para que cada período fuese exclusivo de
@@ -19,7 +19,7 @@ cada cuadro expuesto en un museo?
     contiene múltiples cuadros en museos es la cardinalidad (1,N) 
     de la relación Expone del lado de la agregación.  
     
-![cuadro1.3-ej1](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro1.3-ej1.jpg?raw=true)
+![cuadro 1.3](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro%201.3.jpg)
     
     ¿Cómo la modificaría para que cada período fuese exclusivo de cada cuadro expuesto en un museo?
     Modificaria la cardinalidad antes mencionada a (1,1) 
@@ -54,7 +54,7 @@ D. No es correcto modelar atributos en las relaciones en un modelo ER
 
 **3) Verdadero/ Falso. Justificar**
 
-![cuadro-ej3](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro-ej3.jpg?raw=true)
+![cuadro 3](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro%203.jpg)
 
 A. La relación tiene está mal definida, ya que debería ser entre persona y categoría_monotributo.
 
@@ -95,7 +95,7 @@ G. El modelo no tiene redundancia de datos.
 
 Dado el siguiente modelo E/R sobre vendedores que trabajan en locales:
 
-![cuadro-ej4](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro-ej4.jpg?raw=true)
+![cuadro 4](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro%204.jpg)
 
 A. En qué casos modelaría un atributo fecha _de_ingreso en la relación se_emplea –entre
 Vendedor y Local - como se muestra en la variante “A”?
@@ -111,6 +111,9 @@ agregación Vendedor Local como se muestra en la parte llamada B en el modelo?
 C. ¿Qué se está modelando con Horario cuando está la agregación? Indíquelo agregando la cardinalidad correspondiente.
 
     Se modela el horario de cada vendedor en cada local. 
+
+![cuadro 4.1](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro%204.2.jpg)
+    
     - c1 si fuera (1,N) el modelo indicaria que un vendedor en un local puede trabajar en 1 o más horarios.
     - c2 si fuera (1,1) el modelo indicaria que en un horario trabaja un unico vendedor. 
     - c2 si fuera (1,N) el modelo indicaria que en un horario trabajan 1 o más vendedores.
