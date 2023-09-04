@@ -10,7 +10,7 @@
     
 ![cuadro1.2-ej1](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/cuadro1.2-ej1.jpg?raw=true)
 
-a. En este modelo cada período de exposición contiene múltiples cuadros en museos. ¿Qué
+A. En este modelo cada período de exposición contiene múltiples cuadros en museos. ¿Qué
 parte del modelo indica esto? ¿Cómo la modificaría para que cada período fuese exclusivo de
 cada cuadro expuesto en un museo?
 
@@ -25,9 +25,32 @@ cada cuadro expuesto en un museo?
     Modificaria la cardinalidad antes mencionada a (1,1) 
     
 
-b. Si los cuadros se expusieran en un solo período dentro de cada museo ¿cómo ajustaría el modelo para reflejar esto?
+B. Si los cuadros se expusieran en un solo período dentro de cada museo ¿cómo ajustaría el modelo para reflejar esto?
 
     Cambiaria la otra cardinalidad (del lado de Periodo) a (1,1) 
 
-c. Ajuste el modelo para representar museos de dos tipos: de **arte contemporáneo**, con fecha de inauguración, país y director;  y de **arte en general**, del cual se conoce una fecha estimada de inauguración, país, director y datos históricos. De los datos históricos se registra un año y una descripción histórica, por ejemplo que una pintura famosa se exhibió por primera vez allí en un año determinado.
+C. Ajuste el modelo para representar museos de dos tipos: de **arte contemporáneo**, con fecha de inauguración, país y director;  y de **arte en general**, del cual se conoce una fecha estimada de inauguración, país, director y datos históricos. De los datos históricos se registra un año y una descripción histórica, por ejemplo que una pintura famosa se exhibió por primera vez allí en un año determinado.
+
+**2) Verdadero o falso. Justificar**
+
+A. En una especialización, la entidad padre no modela datos que realmente existan, sino
+que sirve para representar los aspectos comunes de las entidades hijas.
+
+    Falso. La entidad padre SI modela datos que existen y también sirve para
+    representar aspectos comunes de entidades hijas.
+
+B. En una agregación, la cardinalidad mínima debe ser mayor a cero
+
+    Falso. En una agregación la cardinalidad mínima da igual. 
+    Lo que importa es la cardinalidad máxima que debe ser siempre mayor que 1.
+
+C. Una entidad puede no tener un atributo identificador en el modelo ER
+
+    Falso. Siempre tiene que tener un atributo identificador. 
+
+D. No es correcto modelar atributos en las relaciones en un modelo ER
+
+    Falso. Se puede mientras no sea un atributo identificador. 
+
+**3) Verdadero/ Falso. Justificar**
 
