@@ -90,3 +90,28 @@ G. El modelo no tiene redundancia de datos.
     Falso. El modelo si tiene redundancia de datos. 
     - monto en la relación pertenece podría no estar porque indica el monto que se le da a cada beneficiario
     - en Persona se guarda nombre y en persona Fisica también. 
+
+**4) Análisis de un modelo de E/R**
+
+Dado el siguiente modelo E/R sobre vendedores que trabajan en locales:
+
+![cuadro-ej4](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro-ej4.jpg?raw=true)
+
+A. En qué casos modelaría un atributo fecha _de_ingreso en la relación se_emplea –entre
+Vendedor y Local - como se muestra en la variante “A”?
+
+    En el caso donde no necesito tener un gistorial de las fechas de ingreso. 
+    Solo se guarda una única fecha por local, quedaría siempre la última fecha. 
+
+B. ¿En qué casos haría falta modelar una entidad Fecha de ingreso relacionada con la
+agregación Vendedor Local como se muestra en la parte llamada B en el modelo?
+
+    En el caso que necesite un historial de fechas de ingreso.
+
+C. ¿Qué se está modelando con Horario cuando está la agregación? Indíquelo agregando la cardinalidad correspondiente.
+
+    Se modela el horario de cada vendedor en cada local. 
+    - c1 si fuera (1,N) el modelo indicaria que un vendedor en un local puede trabajar en 1 o más horarios.
+    - c2 si fuera (1,1) el modelo indicaria que en un horario trabaja un unico vendedor. 
+    - c2 si fuera (1,N) el modelo indicaria que en un horario trabajan 1 o más vendedores.
+    - c2 si fuera (1,N) el modelo indicaria que existe un horario sin nadie trabajando. 
