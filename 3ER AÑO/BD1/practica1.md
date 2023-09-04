@@ -1,6 +1,6 @@
 **1) Cuadros**
 
-![cuadro-ej1](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro1-ej1.jpg?raw=true)
+![cuadro-ej1](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro%201.jpg)
 
     Hay 2 relaciones con el mismo nombre “expuesto" y esto es un error ya que 
     no pueden haber dos relaciones/entidades con el mismo nombre 
@@ -8,7 +8,7 @@
     Entonces corrijo el error y cambio a "expone" el nombre de la relación "expuesto" 
     entre la agregación y la entidad periodo
     
-![cuadro1.2-ej1](https://github.com/annecchiniv/informatica-unlp/blob/master/3ER%20A%C3%91O/BD1/CUADROS/cuadro1.2-ej1.jpg?raw=true)
+![cuadro1.2-ej1]()
 
 A. En este modelo cada período de exposición contiene múltiples cuadros en museos. ¿Qué
 parte del modelo indica esto? ¿Cómo la modificaría para que cada período fuese exclusivo de
