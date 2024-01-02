@@ -8,7 +8,7 @@ Espero que les ayude de guía!
 
 [TP1 - Modelado](TP1-MODELADO.md)
 
-[TP2 - Normalización](TP2-NORMALIZACION.md)
+[TP2 - Normalización](TP2-NORMALIZACIÓN.md)
 
 
  
