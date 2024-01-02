@@ -10,5 +10,11 @@ Espero que les ayude de guía!
 
 [TP2 - Normalización](PRÁCTICA/TP2-NORMALIZACIÓN.md)
 
+[TP3 - Álgebra Relacional](PRÁCTICA/TP3-AR.md)
+
+[TP4 - SQL](PRÁCTICA/TP4-SQL.md)
+
+[TP5 - Repaso de todas las prácticas](PRÁCTICA/TP5-REPASO.md)
+
 
  
