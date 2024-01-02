@@ -79,3 +79,5 @@ La clave candidata correcta es la 3. CC(a,f) porque:
 - el atributo f va en la clave candidata porque es multivaluado, f no determina ningún atributo y no lo determina ningún atributo tampoco.
 - no necesito "c" en la clave candidata porque c lo obtengo con a, no seria mínima la clave.
 ```
+
+
