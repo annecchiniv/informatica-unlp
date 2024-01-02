@@ -44,8 +44,8 @@ ccs:
     - dominioSitioWeb, idMapa, fechaPublicacionMapa, dueñosSitioWeb
 
 Seleccione la frase que considera verdadera
-● El esquema tiene una clave candidata
-**●** El esquema tiene más de una clave candidata **V**
+- El esquema tiene una clave candidata
+- El esquema tiene más de una clave candidata **V**
 
 Correcion: esta bien la que elegi, la justificacion es que tengo mas de una forma de identificar el sitio web, por idSitioWeb o dominioSitioWeb  
 
