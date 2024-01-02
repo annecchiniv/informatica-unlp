@@ -8,7 +8,7 @@ Espero que les ayude de guía!
 
 [TP1 - Modelado](PRÁCTICA/TP1-MODELADO.md)
 
-[TP2 - Normalización](TP2-NORMALIZACIÓN.md)
+[TP2 - Normalización](PRÁCTICA/TP2-NORMALIZACIÓN.md)
 
 
  
