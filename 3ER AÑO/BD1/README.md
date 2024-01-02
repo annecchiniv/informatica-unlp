@@ -6,7 +6,7 @@ Espero que les ayude de guía!
 
 # Índice
 
-[TP1 - Modelado](TP1-MODELADO.md)
+[TP1 - Modelado](PRÁCTICA/TP1-MODELADO.md)
 
 [TP2 - Normalización](TP2-NORMALIZACIÓN.md)
 
