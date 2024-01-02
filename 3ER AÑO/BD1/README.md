@@ -4,4 +4,8 @@ Esta carpeta es de la parte práctica de la materia BD1b y tiene la mayoria de l
 
 Espero que les ayude de guía!
 
-Valentina
+Índice
+
+ [TP1 - Modelado](TP1MODELADO.md) 
+
+ 
