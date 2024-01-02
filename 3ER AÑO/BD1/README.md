@@ -7,5 +7,7 @@ Espero que les ayude de guía!
 Índice
 
 [TP1 - Modelado](TP1-MODELADO.md)
+[TP2 - Normalización - Parte 1](TP2-NORMALIZACION-P1.md)
+[TP2 - Normalización - Parte 2](TP2-NORMALIZACION-P2.md)
 
  
