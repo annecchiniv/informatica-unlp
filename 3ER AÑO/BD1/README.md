@@ -6,6 +6,6 @@ Espero que les ayude de guía!
 
 Índice
 
-[TP1 - Modelado](TP1MODELADO.md)
+[TP1 - Modelado](TP1-MODELADO.md)
 
  
