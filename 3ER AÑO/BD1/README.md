@@ -4,10 +4,11 @@ Esta carpeta es de la parte práctica de la materia BD1b y tiene la mayoria de l
 
 Espero que les ayude de guía!
 
-Índice
+# Índice
 
 [TP1 - Modelado](TP1-MODELADO.md)
-[TP2 - Normalización - Parte 1](TP2-NORMALIZACION-P1.md)
-[TP2 - Normalización - Parte 2](TP2-NORMALIZACION-P2.md)
+
+[TP2 - Normalización](TP2-NORMALIZACION.md)
+
 
  
